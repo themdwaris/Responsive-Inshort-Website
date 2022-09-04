@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font-family -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div id="container">
+         <!-- header -->
+        <header>
+            <!-- topBar -->
+            <div id="topBar" class="universal-padding">
+                <p id="tollFree">Toll Free : 78646-72682</p>
+                   <!-- social-links -->
+                <div id="social-icon">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+    
+            </div>
+           
+            <!-- navbar -->
+            <nav id="navbar" onclick="closeMenu()" class="universal-padding" >
+                <ul>
+                    <li id="cross-icon"><a href="javascript:void(0)" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#blog">Team</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            </nav>
+            <div id="menu-bar">
+                <a href="javascript:void(0)" onclick="openMenu()"><i class="fa-solid fa-bars"></i></a>
+                <h1 id="logo">InShort</h1>
+               
+            </div>
+           
+        </header>
+
+        <!-- main content -->
+        <!-- banner -->
+        <div id="banner" class="universal-padding">
+            
+                <h1>I'am Web Developer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae totam sapiente obcaecati laboriosam eos quidem sit deleniti corporis tempora et, quaerat perspiciatis delectus, molestiae asperiores?</p>
+            
+          
+        </div>
+
+        <!-- why us section -->
+        <span id="service"></span>
+        <div id="why-section" class="universal-padding">
+            <h1 class="red-heading">Services</h1>
+
+            <div class="section-33" >
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores, perferendis tenetur veniam accusamus ex eaque ipsa consequatur rerum qui.</p>
+                
+            </div>
+            <div class="section-33">
+                <i class="fa-brands fa-css3"></i>
+                <h2>CSS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores, perferendis tenetur veniam accusamus ex eaque ipsa consequatur rerum qui.</p>
+            </div>
+            <div class="section-33">
+                <i class="fa-brands fa-js"></i>
+                <h2>Javascript</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores, perferendis tenetur veniam accusamus ex eaque ipsa consequatur rerum qui.</p>
+            </div>
+            <div class="section-33">
+                <i class="fa-brands fa-react"></i>
+                <h2>React</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores, perferendis tenetur veniam accusamus ex eaque ipsa consequatur rerum qui.</p>
+            </div>
+        </div>
+
+        <!-- contact section -->
+        <span id="contact"></span>
+        <div id="contact-section" class="universal-padding">
+            <div class="section-70">
+                <h1>Contact Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quasi perspiciatis sed quaerat reprehenderit sint Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="section-30">
+                <!-- <button>Contact</button> -->
+                <a href="">Contact</a>
+            </div>
+        </div>
+
+        <!-- blog section -->
+        <span id="blog"></span>
+        <div id="why-section" class="universal-padding">
+            <h1 class="red-heading">Blog</h1>
+
+            <div class="section-33 border-boxx">
+                <img src="images/web-development.jpg" alt="">
+                <h2>Front-End</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores, perferendis tenetur veniam accusamus.</p>
+                <div class="read-more-btn"><a href="">Read more</a></div>
+                
+            </div>
+            <div class="section-33 border-boxx">
+                <img src="images/desktop-development.jpg" alt="">
+                <h2>Back-End</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores, perferendis tenetur veniam accusamu rerum qui.</p>
+                <div class="read-more-btn"><a href="">Read more</a></div>
+            </div>
+            <div class="section-33 border-boxx">
+                <img src="images/portfolio-design.jpg" alt="">
+                <h2>Full-Stack</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores, perferendis tenetur veniam accusamus  rerum qui.</p>
+                <div class="read-more-btn"><a href="">Read more</a></div>
+            </div>
+            <div class="section-33 border-boxx">
+                <img src="images/android-development.jpg" alt="">
+                <h2>BootStrap</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores, perferendis tenetur veniam accusamus  rerum qui.</p>
+                <div class="read-more-btn"><a href="">Read more</a></div>
+            </div>
+        </div>
+
+        <!-- subscribe section -->
+        <div id="subs-section" class="universal-padding">
+            <div class="section-50">
+                <h1>Subscribe Our Newsletter</h1>
+            </div>
+            <div class="section-50">
+                <input type="text" placeholder="Email">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+
+
+        <!-- footer -->
+        <span id="about"></span>
+        <footer id="footer">
+            <div id="footer-details" class="universal-padding">
+                <div id="about-us" class="footer-item">
+
+                    <h3>About</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati debitis distinctio facilis illo omnis! Error, ad officiis! Sed libero molestiae laborum alias commodi impedit eaque, accusamus repellat non vero odit et quae quia est, placeat dignissimos, nisi assumenda officiis? Aliquid exercitationem!</p>
+
+                </div>
+
+                <div id="imp-links" class="footer-item">
+                    
+                    <h3>Important Links</h3>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    
+
+                </div>
+
+                <div id="contact-us" class="footer-item">
+
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                    <address>
+                        Kajipur New Bazar , Maghar <br>Sant Kabir Nagar , UP India 
+                        
+                    </address>
+
+                </div>
+
+            </div>
+
+            <div id="footer-copyright">
+                <p>Copyright &copy; Inshort 2022-2023</p>
+            </div>
+
+        </footer>
+    </div>
+
+    <!-- script -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
